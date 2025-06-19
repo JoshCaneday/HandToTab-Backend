@@ -1,8 +1,8 @@
 import py4j.GatewayServer
 
 class Echo {
-    def print(input: String) {
-        prinln(input)
+    def print(input: String) = {
+        println(input)
     }
 }
 

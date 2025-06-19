@@ -1,6 +1,7 @@
 from fastapi import FastAPI
 import joblib
 import numpy as np
+import train
 
 app = FastAPI()
 model = joblib.load("gesture_model.pkl")
